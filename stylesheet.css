@@ -1,0 +1,50 @@
+body {
+    background-color:aliceblue;
+    font-size: large;
+}
+
+header {
+    background-color:aquamarine;
+    text-align: center; 
+}
+
+.keuze {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+   
+}   
+/* Om het element van de beslisboom op te maken */
+#beslisboom {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#beslisboom p { /* p bevat de vragen van de beslisboom */
+    margin-bottom: 10px;
+}
+
+#beslisboom ul { /* ul is de unorganised list */
+    list-style-type: none;
+    padding: 0;
+}
+
+#beslisboom li { /* li is de organised list */
+    cursor: pointer;
+    padding: 8px;
+    background-color: #e0e0e0;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+#beslisboom li:hover { /* li:hover stijlt het li element wanner je er met je muis over heen gaat */
+    background-color: #ccc;
+}
+
